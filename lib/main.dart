@@ -62,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButton: SpeedDial(
         backgroundColor: Colors.blue[700],
-        overlayOpacity: 0,
+        overlayOpacity: 0.1,
         icon: Icons.more_horiz_sharp,
         children: [
           SpeedDialChild(
